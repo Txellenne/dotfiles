@@ -47,5 +47,10 @@
 
 (defengine youtube
   "http://www.youtube.com/results?aq=f&oq=&search_query=%s")
+  
+;; When stuck at (English) language concordance issues :E ~~
+(defengine skell
+  "https://skell.sketchengine.co.uk/run.cgi/concordance?lpos=&query=%s"
+  :keybinding "s")
 
 (engine-mode t)
